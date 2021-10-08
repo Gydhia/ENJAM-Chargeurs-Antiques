@@ -78,13 +78,13 @@ public class DungeonController : MonoBehaviour
     {
         List<Location> availableDir = new List<Location>();
 
-        if (y + 1 < floorSqrSize && Rooms[loc.x + 1, loc.y] == null)
+        if (loc.y + 1 < floorSqrSize && Rooms[loc.x + 1, loc.y] == null)
             availableDir.Add(new Location(loc.x + 1, loc.y));
-        if (y - 1 >= 0 && Rooms[loc.x - 1, loc.y] == null)
+        if (loc.y - 1 >= 0 && Rooms[loc.x - 1, loc.y] == null)
             availableDir.Add(new Location(loc.x - 1, loc.y));
-        if (y + 1 < floorSqrSize && Rooms[loc.x, loc.y + 1] == null)
+        if (loc.y + 1 < floorSqrSize && Rooms[loc.x, loc.y + 1] == null)
             availableDir.Add(new Location(loc.x, loc.y + 1));
-        if ( y - 1 >= 0 && Rooms[loc.x, loc.y - 1] == null && includeBtm)
+        if (loc.y - 1 >= 0 && Rooms[loc.x, loc.y - 1] == null && includeBtm)
             availableDir.Add(new Location(loc.x, loc.y - 1));
 
         return availableDir;
