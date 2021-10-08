@@ -216,3 +216,41 @@ Received Import Request.
 Start importing Assets/Scripts/ProceduralGeneration/Room.cs using Guid(7e0481cda226147409d5d355bfd10633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2ff08a6d8c542483b9ed3cc54cd086') in 0.009044 seconds
   Import took 0.013288 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 4122.419813 seconds.
+  path: Assets/Scripts/ProceduralGeneration/Room.cs
+  artifactKey: Guid(7e0481cda226147409d5d355bfd10633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ProceduralGeneration/Room.cs using Guid(7e0481cda226147409d5d355bfd10633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f006f97a78bb47f335549d24e3f2147d') in 0.006874 seconds
+  Import took 0.030211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005121 seconds.
+  path: Assets/Scripts/ProceduralGeneration/Room.cs
+  artifactKey: Guid(7e0481cda226147409d5d355bfd10633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ProceduralGeneration/Room.cs using Guid(7e0481cda226147409d5d355bfd10633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f006f97a78bb47f335549d24e3f2147d') in 0.004688 seconds
+  Import took 0.008223 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004800 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 2.001900 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.102300 ms MarkObjects: 1.519600 ms  DeleteObjects: 0.096000 ms)
+
